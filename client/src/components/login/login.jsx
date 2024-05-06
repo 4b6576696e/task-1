@@ -32,68 +32,6 @@ export const formSchema = z.object({
     }),
 })
 
-// const data = [
-//     {
-//         title: "xxsdfsdkjfbdsjfbsjkx",
-//         chatters: { 2: "name" },
-//         messages: [
-//             {
-//                 by: "1",
-//                 msg_type: "text",
-//                 content:
-//                     "sjbiufsnfuisnfiwnfoiqeanfiowenfiwoqebfwuiebgwueibfiu sjbiufsnfuisnfiwnfoiqeanfiowenfiwoqebfwuiebgwueibfiusjbiufsnfuisnfiwnfoiqeanfiowenfiwoqebfwuiebgwueibfiu sdvjsndvjisdnfijsdnv sjdncsjd",
-//             },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             {
-//                 by: "2",
-//                 msg_type: "text",
-//                 content:
-//                     "sjbiufsnfuisnfiwnfoiqeanfiowenfiwoqebfwuiebgwueibfiu sjbiufsnfuisnfiwnfoiqeanfiowenfiwoqebfwuiebgwueibfiusjbiufsnfuisnfiwnfoiqeanfiowenfiwoqebfwuiebgwueibfiu sdvjsndvjisdnfijsdnv sjdncsjd",
-//             },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "2", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "2", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             {
-//                 by: "1",
-//                 msg_type: "media",
-//                 content:
-//                     "https://media.geeksforgeeks.org/wp-content/uploads/20210218220016/Screenshot20210218215957.png",
-//             },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//             { by: "1", msg_type: "text", content: "sfsffs" },
-//         ],
-//     },
-//     {
-//         title: "xxx",
-//         chatters: { 1: "name" },
-//         messages: [{ by: "1", msg_type: "text", content: "sfsffs" }],
-//     },
-//     {
-//         title: "xxx",
-//         chatters: { 1: "name" },
-//         messages: [{ by: "1", msg_type: "text", content: "sfsffs" }],
-//     },
-//     {
-//         title: "sds",
-//         chatters: { 1: "name" },
-//         messages: [{ by: "1", msg_type: "text", content: "sfsffs" }],
-//     },
-// ];
-
 function Login() {
     const { login } = useContext(authContext)
 
