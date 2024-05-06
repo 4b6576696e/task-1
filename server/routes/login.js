@@ -50,41 +50,6 @@ const getDm = async (id) => {
     return result
 }
 
-const result = [
-    {
-        title: "cakedestroyer2024",
-        chatters: {
-            66727340457: "cakedestroyer2024",
-        },
-        messages: [
-            {
-                by: "66727340457",
-                msg_type: "media",
-                content:
-                    "https://instagram.fixm4-3.fna.fbcdn.net/v/t1.15752-9/438231896_429483049812419_4451118061438133124_n.jpg?stp=dst-jpg_e15&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ZkEVoNXzodsQ7kNvgGE5J2v&_nc_ad=z-m&_nc_cid=0&_nc_ht=instagram.fixm4-3.fna&oh=03_Q7cD1QEdXEeGyQhOGKkJhzV_h8kmKcYMloGEwT1F6Kie5ILDaQ&oe=66601691",
-            },
-            {
-                by: "66743659156",
-                msg_type: "text",
-                content: "Jakakak",
-            },
-        ],
-    },
-    {
-        title: "Thorfin",
-        chatters: {
-            66338326556: "4b6576696ee",
-        },
-        messages: [
-            {
-                by: "66743659156",
-                msg_type: "text",
-                content: "Bob",
-            },
-        ],
-    },
-]
-
 router.post("/", async (req, res, next) => {
     try {
         // console.log(req.body)
