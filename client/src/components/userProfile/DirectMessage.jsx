@@ -1,6 +1,3 @@
-// const timeout = async () => {
-//     await
-// };
 
 import { Button } from "../ui/button"
 import { useChatStore } from "../../store/chat-store"
